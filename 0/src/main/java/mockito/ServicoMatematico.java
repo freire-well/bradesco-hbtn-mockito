@@ -1,6 +1,4 @@
-public class ServicoMatematico implements ServicoMatematicoImpl{
+public interface ServicoMatematico {
 
-    public int somar (int a, int b){
-        return a + b;
-    }
+    public int somar (int a, int b);
 }
